@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 
 const AccountDeletion = () => {
         return (
-            <main>
-                <div className="max-w-3xl mx-auto p-6">
+            <main className="mt-8">
+                <div className="max-w-3xl mx-auto p-6 mt-10">
                     <h1 className="text-2xl font-bold mb-4">
                         Account Deletion
                     </h1>
