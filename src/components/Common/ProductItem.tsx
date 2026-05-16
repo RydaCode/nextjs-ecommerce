@@ -159,7 +159,7 @@ const ProductItem = ({ item }: { item: Stores }) => {
       </div>
 
       <h3
-        className="font-medium text-dark px-2 ease-out duration-200 hover:text-blue mb-1.5"
+        className="font-large text-dark px-2 ease-out duration-200 hover:text-blue mb-1.5"
         // onClick={() => handleProductDetails()}
       >
         <Link href="/shop-details"> {item.store_name} </Link>

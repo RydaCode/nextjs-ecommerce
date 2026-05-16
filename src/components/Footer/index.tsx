@@ -251,6 +251,11 @@ const Footer = () => {
                   Terms of Use
                 </a>
               </li>
+              <li>
+                <a className="ease-out duration-200 hover:text-blue" href="./delete-account">
+                  Delete Account
+                </a>
+              </li>
             </ul>
           </div>
 
