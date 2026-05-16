@@ -46,7 +46,7 @@ const ProductItem = ({ item }: { item: Stores }) => {
   // };
 
   return (
-    <div className="group">
+    <div className="group border rounded-lg border-[#afb3c6e1]">
       <div className="relative overflow-hidden flex items-center justify-center rounded-lg bg-[#F6F7FB] min-h-[270px] mb-4">
         <Image
             src={`${process.env.NEXT_PUBLIC_IMAGE_URI}${item.store_profileimage}`}
