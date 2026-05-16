@@ -56,7 +56,7 @@ const ProductItem = ({ item }: { item: Stores }) => {
             className="object-cover"
           />
 
-        <div className="absolute left-0 bottom-0 w-full flex items-center justify-center gap-2.5 pb-5">
+        <div className="absolute left-0 bottom-0 w-full flex items-center justify-center gap-2.5 pb-5 ">
           <button
             // onClick={() => {
             //   openModal();
@@ -159,13 +159,13 @@ const ProductItem = ({ item }: { item: Stores }) => {
       </div>
 
       <h3
-        className="font-medium text-dark ease-out duration-200 hover:text-blue mb-1.5"
+        className="font-medium text-dark px-2 ease-out duration-200 hover:text-blue mb-1.5"
         // onClick={() => handleProductDetails()}
       >
         <Link href="/shop-details"> {item.store_name} </Link>
       </h3>
 
-      <span className="flex items-center gap-2 font-medium text-sm">
+      <span className="flex items-center p-2 gap-2 font-medium text-sm">
         <span className="text-dark">{item.city_town}</span>
         {/* <span className="text-dark-4 line-through">${item.final_price}</span> */}
       </span>
