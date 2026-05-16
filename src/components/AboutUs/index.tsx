@@ -25,6 +25,8 @@ const AboutUs = () => {
     fetchData();
   }, []);
 
+  console.log("ABOUT", page)
+
   const formattedDate = page?.data?.updated_at
   ? new Date(page.data.updated_at).toLocaleDateString("en-US", {
       year: "numeric",

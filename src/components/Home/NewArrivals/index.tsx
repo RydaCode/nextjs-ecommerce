@@ -8,7 +8,7 @@ import useApi from "@/hooks/useApi";
 
 const NewArrival = () => {
 
-  const { data, isLoading, error, get, del } = useApi(
+  const { data, isLoading, error, get } = useApi(
     `/stores/foods?limit=4`
   );
 
